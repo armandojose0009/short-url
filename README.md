@@ -38,11 +38,11 @@ A URL shortener built with:
 
 - Main endpoints:
 
-| Method | Route         | Description          |
-| ------ | ------------- | -------------------- |
-| POST   | `/urls`       | Create a short URL   |
-| GET    | `/urls`       | List all URLs        |
-| GET    | `/urls/:slug` | Redirect to original |
+| Method | Route    | Description          |
+| ------ | -------- | -------------------- |
+| POST   | `/`      | Create a short URL   |
+| GET    | `/`      | List all URLs        |
+| GET    | `/:slug` | Redirect to original |
 
 - Default port: **3001**
 
