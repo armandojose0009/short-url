@@ -3,7 +3,7 @@ import { UrlsService } from './urls.service';
 import { CreateUrlDto } from './dto/create-url.dto';
 import type { Response } from 'express';
 
-@Controller('urls')
+@Controller()
 export class UrlsController {
   constructor(private service: UrlsService) {}
 
